@@ -5,7 +5,7 @@
       "DesignerFileName": "Main.pAutomation",
       "SaveDesignerState": false,
       "Settings": {
-        "X": 1424.68652,
+        "X": 3201.39429,
         "Y": 236.070923,
         "DocScale": 0.7534217
       }
@@ -32,7 +32,7 @@
       "DesignerFileName": "Pega_Finance\\Pega_Finance.pApplication",
       "SaveDesignerState": true,
       "Settings": {
-        "PropertyGrid": "Visible"
+        "PropertyGrid": "Collapsed"
       }
     },
     {

@@ -58,9 +58,9 @@
             <DisplayName Value="MessageBox" />
             <ConnectableUniqueId Value="Automator-8DDE0B04265F066\ConnectableMethod-8DDEEFBD658B03A" />
             <PartID Value="75" />
-            <Left Value="4080" />
+            <Left Value="4380" />
             <Top Value="520" />
-            <Collapsed Value="True" />
+            <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="IMessageBoxService" />
             <Fittings>
@@ -221,8 +221,8 @@
               <Point value="3974, 594" />
               <Point value="3974, 594" />
               <Point value="3974, 594" />
-              <Point value="4080, 594" />
-              <Point value="4090, 594" />
+              <Point value="4380, 594" />
+              <Point value="4390, 594" />
             </LinkPoints>
           </Link>
           <Link PartID="93" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -392,7 +392,7 @@
                       <CanRead Value="False" />
                       <CanWrite Value="True" />
                       <DefaultSet Value="True" />
-                      <DefaultValue Value="Final_Done" />
+                      <DefaultValue Value="Final_Done_forGithub" />
                       <IsThis Value="False" />
                       <ParamName Value="message" />
                       <Position Value="0" />
