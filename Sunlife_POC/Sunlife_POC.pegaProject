@@ -1,0 +1,31 @@
+{
+  "Id": "Project-8DDE0A368F299DB",
+  "Exclude": [
+    "bin",
+    "**/_xray_",
+    "**.xray*",
+    "**.git*",
+    "**/project.*",
+    "**.md5",
+    "**.etag",
+    "**.json",
+    "\\*_/project._",
+    "**/publicassemblies"
+  ],
+  "Include": [],
+  "DeploymentExclude": [
+    "**.Screenshots.pResources",
+    "**.TestCases.pResources",
+    "**.TestResults.pResources"
+  ],
+  "Upgrade": {
+    "Project": "22.1.12",
+    "Transformation": "22.2.0.4"
+  },
+  "Settings": [
+    [
+      "CatchAllBranches",
+      true
+    ]
+  ]
+}

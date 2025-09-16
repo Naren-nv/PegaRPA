@@ -1,0 +1,205 @@
+<OpenSpanDesignDocument Version="22.2.0.4" Serializer="2.0" Culture="en-CA">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.GlobalContainer" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies />
+    <AssemblyReferences>
+      <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Controls, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Office, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Office.Excel, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="Pega.Controls, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="Pega.Scripting, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="True" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.GlobalContainer Name="Globals" Id="GlobalContainer-8DDE0A368F89A73">
+      <Content Name="Controls">
+        <Capacity Value="16" />
+        <Items>
+          <OpenSpan.Office.Excel.ExcelConnector Name="ExcelConnector1" Id="ExcelConnector-8DDE0AB7DDABA65">
+            <FileName Value="C:\Users\naren\Desktop\Mainframe\Pega_Finance.xlsx" />
+            <SheetName Value="Sheet1" />
+            <SaveAsName Value="" />
+            <Sensitive Value="False" Extended="True" />
+          </OpenSpan.Office.Excel.ExcelConnector>
+          <Pega.Controls.Variables.StringVariable Name="First Name" Id="StringVariable-8DDE0ADC70A51E9">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="Last Name" Id="StringVariable-8DDE0ADC789698A">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="Company" Id="StringVariable-8DDE0ADC81F8D8C">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="Street Address" Id="StringVariable-8DDE0ADC8AF9FDC">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="City" Id="StringVariable-8DDE0ADCA128A14">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="State" Id="StringVariable-8DDE0ADCAD050A3">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="ZIP Code" Id="StringVariable-8DDE0ADD396C4E8">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="Phone" Id="StringVariable-8DDE0ADD442893C">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <Pega.Controls.Variables.StringVariable Name="CRM Account" Id="StringVariable-8DDE0ADD5366701">
+            <Sensitive Value="False" Extended="True" />
+            <Value Value="" Encryption="1" />
+          </Pega.Controls.Variables.StringVariable>
+          <OpenSpan.Controls.LookupTable Name="LookupTable1" Id="LookupTable-8DDE3C947CA63E5">
+            <AddOnMissingReplace Value="False" />
+            <AutoIncrementEnabled Value="True" />
+            <CaseSensitive Value="False" />
+            <KeyFieldName Value="customerid" />
+            <ReplaceOnDuplicateAdd Value="False" />
+            <Sensitive Value="False" Extended="True" />
+            <TableSchema Value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;  &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;    &lt;xs:complexType&gt;&#xD;&#xA;      &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;        &lt;xs:element name=&quot;LookupTable&quot;&gt;&#xD;&#xA;          &lt;xs:complexType&gt;&#xD;&#xA;            &lt;xs:sequence&gt;&#xD;&#xA;              &lt;xs:element name=&quot;customerid&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Fname&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Lname&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Company&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Street_x0020_Address&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;City&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;ZIP_x0020_Code&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;xs:element name=&quot;Phone&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;            &lt;/xs:sequence&gt;&#xD;&#xA;          &lt;/xs:complexType&gt;&#xD;&#xA;        &lt;/xs:element&gt;&#xD;&#xA;      &lt;/xs:choice&gt;&#xD;&#xA;    &lt;/xs:complexType&gt;&#xD;&#xA;  &lt;/xs:element&gt;&#xD;&#xA;&lt;/xs:schema&gt;" />
+            <Content Name="DynamicMembers">
+              <Items>
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="AddRecord" aliasName="AddRecord" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+                  <param name="Key_customerid" aliasName="Key_customerid" paramType="System.Int32" isIn="False" isOut="True" position="0" />
+                  <param name="Fname" aliasName="Fname" paramType="System.String" isIn="True" isOut="False" position="1" />
+                  <param name="Lname" aliasName="Lname" paramType="System.String" isIn="True" isOut="False" position="2" />
+                  <param name="Company" aliasName="Company" paramType="System.String" isIn="True" isOut="False" position="3" />
+                  <param name="Street Address" aliasName="Street Address" paramType="System.String" isIn="True" isOut="False" position="4" />
+                  <param name="City" aliasName="City" paramType="System.String" isIn="True" isOut="False" position="5" />
+                  <param name="ZIP Code" aliasName="ZIP Code" paramType="System.String" isIn="True" isOut="False" position="6" />
+                  <param name="Phone" aliasName="Phone" paramType="System.String" isIn="True" isOut="False" position="7" />
+                </OpenSpan.DynamicMembers.DynamicMethodInfo>
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="GetRecord" aliasName="GetRecord" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Boolean">
+                  <param name="Key_customerid" aliasName="Key_customerid" paramType="System.Int32" isIn="True" isOut="False" position="0" />
+                  <param name="Fname" aliasName="Fname" paramType="System.String" isIn="False" isOut="True" position="1" />
+                  <param name="Lname" aliasName="Lname" paramType="System.String" isIn="False" isOut="True" position="2" />
+                  <param name="Company" aliasName="Company" paramType="System.String" isIn="False" isOut="True" position="3" />
+                  <param name="Street Address" aliasName="Street Address" paramType="System.String" isIn="False" isOut="True" position="4" />
+                  <param name="City" aliasName="City" paramType="System.String" isIn="False" isOut="True" position="5" />
+                  <param name="ZIP Code" aliasName="ZIP Code" paramType="System.String" isIn="False" isOut="True" position="6" />
+                  <param name="Phone" aliasName="Phone" paramType="System.String" isIn="False" isOut="True" position="7" />
+                </OpenSpan.DynamicMembers.DynamicMethodInfo>
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="ReplaceRecord" aliasName="ReplaceRecord" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void">
+                  <param name="Key_customerid" aliasName="Key_customerid" paramType="System.Int32" isIn="True" isOut="True" position="0" />
+                  <param name="Fname" aliasName="Fname" paramType="System.String" isIn="True" isOut="False" position="1" />
+                  <param name="Lname" aliasName="Lname" paramType="System.String" isIn="True" isOut="False" position="2" />
+                  <param name="Company" aliasName="Company" paramType="System.String" isIn="True" isOut="False" position="3" />
+                  <param name="Street Address" aliasName="Street Address" paramType="System.String" isIn="True" isOut="False" position="4" />
+                  <param name="City" aliasName="City" paramType="System.String" isIn="True" isOut="False" position="5" />
+                  <param name="ZIP Code" aliasName="ZIP Code" paramType="System.String" isIn="True" isOut="False" position="6" />
+                  <param name="Phone" aliasName="Phone" paramType="System.String" isIn="True" isOut="False" position="7" />
+                </OpenSpan.DynamicMembers.DynamicMethodInfo>
+              </Items>
+            </Content>
+            <Content Name="Fields">
+              <Capacity Value="8" />
+              <Table Value="ComponentReference" Name="LookupTable1" />
+              <Items>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="True" />
+                  <FieldName Value="customerid" />
+                  <Key Value="True" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.Int32" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="Fname" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="Lname" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="Company" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="Street Address" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="City" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="ZIP Code" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+                <OpenSpan.Controls.LookupField>
+                  <AutoIncrement Value="False" />
+                  <FieldName Value="Phone" />
+                  <Key Value="False" />
+                  <ParentCollection Value="" />
+                  <Type Value="System.String" />
+                </OpenSpan.Controls.LookupField>
+              </Items>
+            </Content>
+          </OpenSpan.Controls.LookupTable>
+          <OpenSpan.Controls.Data.TableView Name="TableView1" Id="TableView-8DDE3C94D404561">
+            <AllowDelete Value="False" />
+            <AllowEdit Value="False" />
+            <AllowNew Value="False" />
+            <Sensitive Value="False" Extended="True" />
+            <TableProvider Value="EMPTY" />
+            <TableSchema Value="" />
+            <Content Name="DynamicMembers">
+              <Items>
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Next" aliasName="Next" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Boolean" />
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Previous" aliasName="Previous" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Boolean" />
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="First" aliasName="First" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void" />
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Last" aliasName="Last" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void" />
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="Current" aliasName="Current" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void" />
+                <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="ApplyFilter" aliasName="ApplyFilter" visibility="DefaultOn" source="" blockTypeName="" returnType="System.Void" />
+              </Items>
+            </Content>
+          </OpenSpan.Controls.Data.TableView>
+          <OpenSpan.Office.MicrosoftOutlook Name="MicrosoftOutlook1" Id="MicrosoftOutlook-8DDEEFCE098D3C9">
+            <Sensitive Value="False" Extended="True" />
+            <StartOnProjectStart Value="False" />
+          </OpenSpan.Office.MicrosoftOutlook>
+          <OpenSpan.Office.MicrosoftOutlookMail Name="MicrosoftOutlookMai1" Id="MicrosoftOutlookMail-8DDEEFCE1F0B8F0">
+            <Sensitive Value="False" Extended="True" />
+            <StartOnProjectStart Value="False" />
+          </OpenSpan.Office.MicrosoftOutlookMail>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.GlobalContainer>
+  </Component>
+</OpenSpanDesignDocument>

@@ -1,0 +1,404 @@
+<OpenSpanDesignDocument Version="22.2.0.4" Serializer="2.0" Culture="en-CA">
+  <ComponentInfo>
+    <Type Value="OpenSpan.Automation.Automator" />
+    <Assembly Value="OpenSpan.Automation" />
+    <Dependencies>
+      <Dependency Id="Automator-8DDEDE870531BA3" IsUsed="False" />
+      <Dependency Id="GlobalContainer-8DDE0A368F89A73" IsUsed="True" />
+    </Dependencies>
+    <AssemblyReferences>
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="OpenSpan, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Automation, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Controls, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="OpenSpan.Office, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+      <Assembly Value="Pega.Controls, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
+    </AssemblyReferences>
+    <DynamicAssemblyReferences />
+    <FileReferences />
+    <BuildReferences />
+    <StartAtRuntime Value="False" />
+  </ComponentInfo>
+  <Component Version="1.0">
+    <OpenSpan.Automation.Automator Name="Autx_Mail" Id="Automator-8DDE482B4C5FFB4">
+      <AutomationDocument>
+        <Name Value="" />
+        <Size Value="5000, 5000" />
+        <Objects>
+          <ConnectionBlock>
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\EntryPoint-8DDEEFC95D8AAEB" />
+            <Left Value="30" />
+            <Top Value="20" />
+            <PartID Value="32" />
+            <Collapsed Value="False" />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Open" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFCF314E01C" />
+            <PartID Value="39" />
+            <Left Value="189" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlook1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="New" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD0AAB7CA0" />
+            <PartID Value="41" />
+            <Left Value="547" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFD107B2F23" />
+            <PartID Value="43" />
+            <Left Value="1780" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="AddAttachment" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2311E501" />
+            <PartID Value="46" />
+            <Left Value="2190" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Send" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2C91304F" />
+            <PartID Value="48" />
+            <Left Value="2613" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA6338A65" />
+            <PartID Value="50" />
+            <Left Value="958" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA97D24A0" />
+            <PartID Value="51" />
+            <Left Value="1369" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="MicrosoftOutlookMai1" />
+            <OverriddenIds />
+          </ConnectionBlock>
+        </Objects>
+        <Links>
+          <Link PartID="40" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="32" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\EntryPoint-8DDEEFC95D8AAEB" MemberComponentId="Automator-8DDE482B4C5FFB4\EntryPoint-8DDEEFC95D8AAEB" />
+            <To PartID="39" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFCF314E01C" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFCF314E01C" />
+            <LinkPoints>
+              <Point value="150, 42" />
+              <Point value="160, 42" />
+              <Point value="164, 42" />
+              <Point value="164, 94" />
+              <Point value="189, 94" />
+              <Point value="199, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="42" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="39" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFCF314E01C" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFCF314E01C" />
+            <To PartID="41" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD0AAB7CA0" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD0AAB7CA0" />
+            <LinkPoints>
+              <Point value="507, 94" />
+              <Point value="517, 94" />
+              <Point value="517, 94" />
+              <Point value="517, 94" />
+              <Point value="547, 94" />
+              <Point value="557, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="47" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="43" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFD107B2F23" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFD107B2F23" />
+            <To PartID="46" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2311E501" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2311E501" />
+            <LinkPoints>
+              <Point value="2150, 94" />
+              <Point value="2160, 94" />
+              <Point value="2160, 94" />
+              <Point value="2160, 94" />
+              <Point value="2190, 94" />
+              <Point value="2200, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="49" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="46" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2311E501" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2311E501" />
+            <To PartID="48" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2C91304F" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD2C91304F" />
+            <LinkPoints>
+              <Point value="2561, 94" />
+              <Point value="2571, 94" />
+              <Point value="2592, 94" />
+              <Point value="2592, 94" />
+              <Point value="2613, 94" />
+              <Point value="2623, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="52" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="41" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD0AAB7CA0" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableMethod-8DDEEFD0AAB7CA0" />
+            <To PartID="50" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA6338A65" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA6338A65" />
+            <LinkPoints>
+              <Point value="918, 94" />
+              <Point value="928, 94" />
+              <Point value="928, 94" />
+              <Point value="928, 94" />
+              <Point value="958, 94" />
+              <Point value="968, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="53" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="50" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA6338A65" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA6338A65" />
+            <To PartID="51" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA97D24A0" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA97D24A0" />
+            <LinkPoints>
+              <Point value="1329, 94" />
+              <Point value="1339, 94" />
+              <Point value="1339, 94" />
+              <Point value="1339, 94" />
+              <Point value="1369, 94" />
+              <Point value="1379, 94" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="54" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="51" PortName="Complete" PortType="Event" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA97D24A0" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFDA97D24A0" />
+            <To PartID="43" PortName="DoWork" PortType="Method" ConnectableId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFD107B2F23" MemberComponentId="Automator-8DDE482B4C5FFB4\ConnectableProperties-8DDEEFD107B2F23" />
+            <LinkPoints>
+              <Point value="1740, 94" />
+              <Point value="1750, 94" />
+              <Point value="1750, 94" />
+              <Point value="1750, 94" />
+              <Point value="1780, 94" />
+              <Point value="1790, 94" />
+            </LinkPoints>
+          </Link>
+        </Links>
+        <Comments />
+        <SubGraphs />
+      </AutomationDocument>
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Run" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnType="System.Void" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.Automator>
+    <OpenSpan.Automation.EntryPoint Name="EntryPoint1" Id="EntryPoint-8DDEEFC95D8AAEB">
+      <AliasName Value="Run" />
+      <ComponentName Value="Run" />
+      <DisplayName Value="Run" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
+      <InstanceUniqueId Value="Automator-8DDE482B4C5FFB4\EntryPoint-8DDEEFC95D8AAEB" />
+      <MemberDetails Value=".Run" />
+      <MethodName Value="_EntryPointExecute" />
+      <Removing Value="False" />
+      <Sensitive Value="False" Extended="True" />
+      <UseAlias Value="True" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" type="System.Void" aliasName="Result" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.EntryPoint>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod1" Id="ConnectableMethod-8DDEEFCF314E01C">
+      <ComponentName Value="MicrosoftOutlook1" />
+      <DisplayName Value="Open" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlook" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlook-8DDEEFCE098D3C9" />
+      <MemberDetails Value=".Open() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Open" />
+            <MemberType Value="Method" />
+            <TypeName Value="System.Void" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Void" />
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod2" Id="ConnectableMethod-8DDEEFD0AAB7CA0">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DisplayName Value="New" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".New() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="New" />
+            <MemberType Value="Method" />
+            <TypeName Value="System.Void" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Void" />
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti1" Id="ConnectableProperties-8DDEEFD107B2F23">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DefaultValues Value="To=narendranathan97@outlook.com" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".To Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="To" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod3" Id="ConnectableMethod-8DDEEFD2311E501">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DisplayName Value="AddAttachment" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".AddAttachment() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" typeAssembly="OpenSpan.Office, Version=22.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" type="OpenSpan.Office.MicrosoftOutlookAttachment" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" tag="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="AddAttachment" />
+            <MemberType Value="Method" />
+            <TypeAssemblyName Value="OpenSpan.Office" />
+            <TypeName Value="OpenSpan.Office.MicrosoftOutlookAttachment" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="OpenSpan.Office.MicrosoftOutlookAttachment" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="True" />
+                      <DefaultValue Value="C:\Users\naren\Desktop\Mainframe\Pega_Finance.xlsx" />
+                      <IsThis Value="False" />
+                      <ParamName Value="fileName" />
+                      <Position Value="0" />
+                      <TypeName Value="System.String" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableMethod Name="ConnectableMethod4" Id="ConnectableMethod-8DDEEFD2C91304F">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DisplayName Value="Send" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".Send() Method" />
+      <ParamsLength Value="0" />
+      <Sensitive Value="False" Extended="True" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Send" />
+            <MemberType Value="Method" />
+            <TypeName Value="System.Void" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Void" />
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti2" Id="ConnectableProperties-8DDEEFDA6338A65">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DefaultValues Value="Subject=Output_Report" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".Subject Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Subject" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableProperties Name="ConnectableProperti3" Id="ConnectableProperties-8DDEEFDA97D24A0">
+      <ComponentName Value="MicrosoftOutlookMai1" />
+      <DefaultValues Value="Body=Hi Team,&#xD;&#xA;&#xD;&#xA;Here is the Output report of the today's run&#xD;&#xA;&#xD;&#xA;Thanks,&#xD;&#xA;Pega RPA Bot" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Office.MicrosoftOutlookMail" />
+      <InstanceUniqueId Value="GlobalContainer-8DDE0A368F89A73\MicrosoftOutlookMail-8DDEEFCE1F0B8F0" />
+      <MemberDetails Value=".Body Property" />
+      <Sensitive Value="False" Extended="True" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Body" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+  </Component>
+</OpenSpanDesignDocument>

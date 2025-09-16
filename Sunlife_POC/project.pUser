@@ -1,0 +1,174 @@
+{
+  "WorkspaceSettings": [
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Main.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 1424.68652,
+        "Y": 236.070923,
+        "DocScale": 0.7534217
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Main.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed"
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Main.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": false,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Pega_Finance\\Pega_Finance.pApplication",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible"
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Pega_Finance\\Pega_Finance.pApplication",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Globals.pGlobals",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible"
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Globals.pGlobals",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Autx_Mail.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 0.0,
+        "DocScale": 0.7578755
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Autx_Mail.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Autx_Mail.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed"
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Autx_GetDataFromApi.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 203.908508,
+        "Y": 506.810181,
+        "DocScale": 0.995544553
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Autx_GetDataFromApi.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": false,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Autx_GetDataFromApi.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible"
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Autx_updateDetailsinPF.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 0.0,
+        "DocScale": 0.666993737
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Autx_updateDetailsinPF.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Autx_updateDetailsinPF.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Collapsed"
+      }
+    },
+    {
+      "Name": "AutomationDesigner",
+      "DesignerFileName": "Autx_Excel.pAutomation",
+      "SaveDesignerState": false,
+      "Settings": {
+        "X": 0.0,
+        "Y": 109.43811,
+        "DocScale": 0.5867705
+      }
+    },
+    {
+      "Name": "Properties",
+      "DesignerFileName": "Autx_Excel.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "StandardView": true,
+        "EnableGrouping": false
+      }
+    },
+    {
+      "Name": "Designer",
+      "DesignerFileName": "Autx_Excel.pAutomation",
+      "SaveDesignerState": true,
+      "Settings": {
+        "PropertyGrid": "Visible"
+      }
+    }
+  ],
+  "ActiveDesignerFileName": "Main.pAutomation"
+}
