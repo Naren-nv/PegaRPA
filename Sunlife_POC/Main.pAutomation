@@ -58,9 +58,9 @@
             <DisplayName Value="MessageBox" />
             <ConnectableUniqueId Value="Automator-8DDE0B04265F066\ConnectableMethod-8DDEEFBD658B03A" />
             <PartID Value="75" />
-            <Left Value="4380" />
+            <Left Value="4080" />
             <Top Value="520" />
-            <Collapsed Value="False" />
+            <Collapsed Value="True" />
             <WillExecute Value="True" />
             <InstanceName Value="IMessageBoxService" />
             <Fittings>
@@ -221,8 +221,8 @@
               <Point value="3974, 594" />
               <Point value="3974, 594" />
               <Point value="3974, 594" />
-              <Point value="4380, 594" />
-              <Point value="4390, 594" />
+              <Point value="4080, 594" />
+              <Point value="4090, 594" />
             </LinkPoints>
           </Link>
           <Link PartID="93" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -254,6 +254,7 @@
           <Comment Text="This automation is designed to fetch a random user &#xD;&#xA;from an API using the REST Client. &#xD;&#xA;The JSON response is deserialized, and the required values are&#xD;&#xA;extracted from the JSON object. &#xD;&#xA;The data is then added to a LookupTable, and &#xD;&#xA;finally exported to an Excel file." PartID="94" Position="1720, 840" UnanchoredOffset="369, -172" BaseWidth="30" />
           <Comment Text="This automation (Autx_Excel) uses the Excel Connector to iterate &#xD;&#xA;through all rows in the worksheet. Within the loop, &#xD;&#xA;the bot logs into the PegaFinance application using the Windows/Web Adapter.&#xD;&#xA; For each record, it navigates to the required section of the application and submits the user details. &#xD;&#xA;After successful completion,&#xD;&#xA; the automation updates the corresponding row in Excel with the processing status." PartID="96" Position="2580, 960" UnanchoredOffset="122, -186" BaseWidth="30" />
           <Comment Text="This automation (Autx_Mail) generates the consolidated report and &#xD;&#xA;sends it to the user via Outlook.&#xD;&#xA;The email allows the user to review &#xD;&#xA;how many customer&#xD;&#xA;records have been processed successfully" PartID="97" Position="3400, 720" UnanchoredOffset="9, -75" BaseWidth="30" />
+          <Comment Text="otha test" PartID="98" Position="2031, 1352" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>
@@ -392,7 +393,7 @@
                       <CanRead Value="False" />
                       <CanWrite Value="True" />
                       <DefaultSet Value="True" />
-                      <DefaultValue Value="Final_Done_forGithub" />
+                      <DefaultValue Value="Final_Done" />
                       <IsThis Value="False" />
                       <ParamName Value="message" />
                       <Position Value="0" />
